@@ -1,9 +1,9 @@
 function importEpiCollect() {
   // Your EpiCollect CSV export link
-  var url = "https://five.epicollect.net/api/export/entries/garden-phenology?format=csv";
+  var url = "your-epicollect-api-link";
   
   // Target sheet
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("name-of-your-google-sheet");
   
   // Fetch CSV data
   var response = UrlFetchApp.fetch(url);
