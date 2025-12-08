@@ -1,4 +1,4 @@
-# Monitor flowering plant phenology in your own garden!
+# Monitor flowering plant phenology in your own garden
 
 ## Table of contents
 
@@ -20,4 +20,4 @@ The goals of this repository are to create...
 
 ## File descriptions
 
-[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden!)
+[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
