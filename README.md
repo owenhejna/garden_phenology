@@ -12,6 +12,8 @@ The goals of this repository are to create...
 - A simple and reproducible way for folks to visualize the data for their own garden once collected
 - A fun way to record the blooming times of the plants in your own garden!
 
+[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
+
 ## Workflow
 
 1. Create data collection project on EpiCollect
@@ -36,18 +38,16 @@ b89c4f5b-0220-486b-9ac7-376069ccb4b3  2025-11-23T17:34:03.000Z  2025-11-23T17:34
 795cfb3c-8abf-4f98-98a9-fafdecfbde99  2025-11-23T17:32:46.000Z  2025-11-23T17:34:09.000Z  795cfb3c-8abf-4f98-98a9-fafdecfbde99  23/11/2025  "Native" garden Black-eyed Susan    Owen      
 795cfb3c-8abf-4f98-98a9-fafdecfbde99  2025-11-23T17:32:46.000Z  2025-11-23T17:34:09.000Z  795cfb3c-8abf-4f98-98a9-fafdecfbde99  23/11/2025  "Native" garden Sweet Alyssum       Owen      
 
-(note: some columns have already been filtered out, the R code will do this)
 ```
 
 3. Create plots using R script
 Delete the first row from your google sheet data (the row that denotes when you read in from epi) and then save it as a .csv file.
 Run "" code, change file paths if need be (filepaths in R code are relatively pathed by default, downloading the whole repo is probably easiest option).
 
-```
-Example of full_range plot using testdata_2025.csv
+Example of plot using testdata_2025.csv
 ![Plot](plots/garden_phenology_full_range.png)
 
-```
+[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
 
 ## File descriptions
 
