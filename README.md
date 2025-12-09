@@ -1,12 +1,12 @@
-# Monitor flowering plant phenology in your own garden
+# Monitor flowering plant phenology in your own garden 🌱
 
-## Table of contents🌸
+## Table of contents 🌸
 
 1. [Goals of repository](#goals-of-repository)
 2. [Workflow](#workflow)
 3. [File descriptions](#file-descriptions)
 
-## Goals of repository🌺
+## Goals of repository 🌺
 The goals of this repository are to create...
 - A data collection workflow for anyone with access to a phone to collect flowering plant phenology data
 - A simple and reproducible way for folks to visualize the data for their own garden once collected
@@ -14,7 +14,7 @@ The goals of this repository are to create...
 
 [Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
 
-## Workflow🌼
+## Workflow 🌼
 
 1. Create data collection project on EpiCollect
 The easiest way to collect data for this workflow is to setup an [EpiCollect](https://five.epicollect.net/) project.
@@ -49,7 +49,7 @@ Example of plot using testdata_2025.csv
 
 [Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
 
-## File descriptions🌻
+## File descriptions 🌻
 
 ### code (folder)
 
