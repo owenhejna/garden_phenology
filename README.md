@@ -18,12 +18,12 @@ The goals of this repository are to create...
 
 1. Create data collection project on EpiCollect
 The easiest way to collect data for this workflow is to setup an [EpiCollect](https://five.epicollect.net/) project.
-Then, create the following survey questions to work in correspondence with code: "What is the date?","Which plot are you surveying","What species is/are blooming in that plot?","Observer","Comments"
+Then, create the following survey questions to work in correspondence with code: "What is the date?", "Which plot are you surveying", "What species is/are blooming in that plot?", "Observer", "Comments"
 Tip: It is easiest to use the checkbox selection type for the species observations. This makes it so you can submit one observation per plot per day instead of one observation per species in every plot. The code will automatically break up the list of observed species in the plot into individual rows.
 
 2. Setup google sheet to read in Epi data
-The easiest way to read you Epicollect data into a csv is to setup a google sheet that runs the "" script. This script will read in the epicollect project data, create individual species observation rows from lists, and even changes column names.
-Create a new google sheet and select Extensions in the toolbar, then Apps Script. Now you can paste in the given "" script (MAKE SURE TO CHANGE API LINK AND SHEET NAME, lines 3 and 6 respectively) and click run. This will read your epicollect project data into whatever sheet you specify in your open google sheet.
+The easiest way to read you Epicollect data into a csv is to setup a google sheet that runs the epitogoogle.js script. This script will read in the epicollect project data, create individual species observation rows from lists, and even changes column names.
+Create a new google sheet and select Extensions in the toolbar, then Apps Script. Now you can paste in the given epitogoogle.js script (MAKE SURE TO CHANGE API LINK AND SHEET NAME, lines 3 and 6 respectively) and click run. This will read your epicollect project data into whatever sheet you specify in your open google sheet.
 
 ```
 Example of epicollect output
@@ -42,7 +42,7 @@ b89c4f5b-0220-486b-9ac7-376069ccb4b3  2025-11-23T17:34:03.000Z  2025-11-23T17:34
 
 3. Create plots using R script
 Delete the first row from your google sheet data (the row that denotes when you read in from epi) and then save it as a .csv file.
-Run "" code, change file paths if need be (filepaths in R code are relatively pathed by default, downloading the whole repo is probably easiest option).
+Run phenoplotting.R code, change file paths if need be (filepaths in R code are relatively pathed by default, downloading the whole repo is probably easiest option).
 
 Example of plot using testdata_2025.csv
 ![Plot](plots/garden_phenology_full_range.png)
