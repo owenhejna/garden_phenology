@@ -12,7 +12,7 @@ The goals of this repository are to create...
 - A simple and reproducible way for folks to visualize the data for their own garden once collected
 - A fun way to record the blooming times of the plants in your own garden!
 
-[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
+[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden-🌱)
 
 ## Workflow 🌼
 
@@ -47,7 +47,7 @@ Run phenoplotting.R code, change file paths if need be (filepaths in R code are 
 Example of plot using testdata_2025.csv
 ![Plot](plots/garden_phenology_full_range.png)
 
-[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
+[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden-🌱)
 
 ## File descriptions 🌻
 
@@ -73,4 +73,4 @@ This plot represents flowering plant phenology data for all sampled dates in the
 This plot represents flowering plant phenology data for all dates between 12/1-11/1/2025. This plot is more likely what finalized outputs will look like.
 
 
-[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden)
+[Back to top ⤒](#monitor-flowering-plant-phenology-in-your-own-garden-🌱)
