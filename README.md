@@ -2,9 +2,9 @@
 
 ## 🌸 Table of contents 🌸
 
-1. [Goals of repository](#🌺-goals-of-repository-🌺)
-2. [Workflow](#🌼-workflow-🌼)
-3. [File descriptions](#🌻-file-descriptions-🌻)
+1. [Goals of repository](#goals-of-repository)
+2. [Workflow](#workflow)
+3. [File descriptions](#file-descriptions)
 
 ## 🌺 Goals of repository 🌺
 The goals of this repository are to create...
