@@ -24,7 +24,7 @@ The easiest way to read you Epicollect data into a csv is to setup a google shee
 Create a new google sheet and select Extensions in the toolbar, then Apps Script. Now you can paste in the given "" script (MAKE SURE TO CHANGE API LINK AND SHEET NAME, lines 3 and 6 respectively) and click run. This will read your epicollect project data into whatever sheet you specify in your open google sheet.
 
 ```
-Example data
+Example of epicollect output
 
 ec5_uuid                           created_at                uploaded_at              title                             date        plot            species_common       observer   comments
 11fd052d-abbc-4292-9127-493b50b362c9  2025-11-23T17:39:54.000Z  2025-11-23T17:40:06.000Z  11fd052d-abbc-4292-9127-493b50b362c9  23/11/2025  House garden    Pansy              Owen      
@@ -36,13 +36,18 @@ b89c4f5b-0220-486b-9ac7-376069ccb4b3  2025-11-23T17:34:03.000Z  2025-11-23T17:34
 795cfb3c-8abf-4f98-98a9-fafdecfbde99  2025-11-23T17:32:46.000Z  2025-11-23T17:34:09.000Z  795cfb3c-8abf-4f98-98a9-fafdecfbde99  23/11/2025  "Native" garden Black-eyed Susan    Owen      
 795cfb3c-8abf-4f98-98a9-fafdecfbde99  2025-11-23T17:32:46.000Z  2025-11-23T17:34:09.000Z  795cfb3c-8abf-4f98-98a9-fafdecfbde99  23/11/2025  "Native" garden Sweet Alyssum       Owen      
 
+(note: some columns have already been filtered out, the R code will do this)
 ```
 
 3. Create plots using R script
 Delete the first row from your google sheet data (the row that denotes when you read in from epi) and then save it as a .csv file.
 Run "" code, change file paths if need be (filepaths in R code are relatively pathed by default, downloading the whole repo is probably easiest option).
 
-A PLOT HERE
+```
+Example of full_range plot using testdata_2025.csv
+![Plot](plots/garden_phenology_full_range.png)
+
+```
 
 ## File descriptions
 
